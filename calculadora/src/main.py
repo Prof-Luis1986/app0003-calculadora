@@ -66,7 +66,7 @@ def main(page: ft.Page):
             res=float(num1.value)-float(num2.value)
             mostrar_resultado(res)
         except:
-            mostrar_resultado("Error")
+            mostrar_resultado("Error...")
         
    
     page.add()
